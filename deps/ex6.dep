@@ -1,0 +1,11 @@
+Package: apache
+Depends: java|c,apt
+
+
+Package: java
+Conflicts: apt
+
+Package: apt
+Conflicts: c
+
+Install: apache

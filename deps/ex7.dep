@@ -1,0 +1,18 @@
+Package: apache
+Depends: java|c,apt|python
+Conflicts: spring
+
+Package: java
+Depends: SQL
+Conflicts: apt
+
+Package: apt
+Depends: c
+
+Package: python
+Depends: SQL
+
+Package: c
+Depends: spring
+
+Install: apache
